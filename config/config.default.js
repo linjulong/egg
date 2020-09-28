@@ -93,7 +93,7 @@ module.exports = appInfo => {
     port: 3306,
     database: 'egg-init',
     username: 'root',
-    password: '684319',
+    password: '***',
     timezone: '+08:00', // 保存为本地时区
     dialectOptions: {
       dateStrings: true,
@@ -116,8 +116,8 @@ module.exports = appInfo => {
 
   // add your user config here
   const userConfig = {
-    appid: 'wxd971096469cfb7d7',
-    secret: '0e7fa9bed1f825d28dc52506faeef712',
+    appid: '***',
+    secret: '***',
     access_token: '',
     Status,
     Code
