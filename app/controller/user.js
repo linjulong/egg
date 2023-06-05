@@ -26,6 +26,7 @@ class UserController extends Controller {
         //解密token获取openid，查询sessionKey
         const openid = await ctx.verify();
         const userInfo = await ctx.service.user.getUserInfo(openid);
+        console.log(userInfo)
         var pc = new WXBizDataCrypt(this.app.config.appid, userInfo.session_key);
         var data = pc.decryptData(encryptedData, iv);
         await ctx.service.user.update(openid, { phone: data.phoneNumber });

@@ -7,6 +7,7 @@
     "declarations": true
   },
   "dependencies": {
+    "await-stream-ready": "^1.0.1",
     "axios": "^0.19.2",
     "crypto": "^1.0.1",
     "egg": "^2.15.1",
@@ -17,7 +18,9 @@
     "egg-validate": "^2.0.2",
     "koa-compress": "^4.0.1",
     "mysql2": "^2.1.0",
-    "os": "^0.1.1"
+    "mz-modules": "^2.1.0",
+    "silly-datetime": "^0.1.2",
+    "stream-wormhole": "^1.1.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",
